@@ -18,7 +18,7 @@ export default function DetailsScreen() {
         <Text style={styles.tag}>Produto com Frete Grátis</Text>
         
         <View style={styles.priceBox}>
-          <Text style={styles.pricePix}>R$ {price} <Text style={{fontSize: 16}}>no pix</Text></Text>
+          <Text style={styles.pricePix}>R$ 2799,99 {price} <Text style={{fontSize: 16}}>no pix</Text></Text>
           <Text style={styles.discount}>com 6% de desconto</Text>
           <Text style={styles.priceOld}>A partir de R$ 129,90</Text>
           <Text style={styles.installments}>até 5x de R$ 25,98 sem juros</Text>
@@ -45,13 +45,13 @@ const styles = StyleSheet.create({
   mainImg: { width: '100%', height: 450, resizeMode: 'contain', backgroundColor: '#000' },
   content: { padding: 25 },
   title: { fontSize: 26, fontWeight: 'bold', color: '#FFF' },
-  tag: { color: '#2ecc71', fontSize: 14, marginTop: 5, fontWeight: '500' },
+  tag: { color: '#ffffff', fontSize: 14, marginTop: 5, fontWeight: '500' },
   priceBox: { marginVertical: 30 },
-  pricePix: { color: '#E91E63', fontSize: 38, fontWeight: 'bold' },
-  discount: { color: '#E91E63', fontSize: 16, fontWeight: '500' },
+  pricePix: { color: '#17db32', fontSize: 38, fontWeight: 'bold' },
+  discount: { color: '#ffffff', fontSize: 16, fontWeight: '500' },
   priceOld: { color: '#888', textDecorationLine: 'line-through', marginTop: 10, fontSize: 16 },
   installments: { color: '#FFF', fontSize: 16, marginTop: 5 },
-  btnMain: { backgroundColor: '#E91E63', padding: 18, borderRadius: 5, alignItems: 'center' },
+  btnMain: { backgroundColor: '#ff0000', padding: 18, borderRadius: 5, alignItems: 'center' },
   btnText: { color: '#FFF', fontWeight: 'bold', fontSize: 20, textTransform: 'uppercase' },
   btnWhats: { borderWidth: 1, borderColor: '#FFF', padding: 15, borderRadius: 5, alignItems: 'center', marginTop: 15 },
   btnWhatsText: { color: '#FFF', fontWeight: 'bold' }

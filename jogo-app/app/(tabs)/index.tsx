@@ -88,7 +88,7 @@ const styles = StyleSheet.create({
   cardContent: { padding: 12, alignItems: 'center' },
   platform: { fontSize: 10, color: '#666' },
   gameTitle: { color: '#333', fontSize: 15, fontWeight: 'bold', marginVertical: 5 },
-  pricePix: { color: '#E91E63', fontSize: 18, fontWeight: 'bold' },
-  btnBuy: { backgroundColor: '#E91E63', width: '100%', padding: 8, borderRadius: 4, marginTop: 10, alignItems: 'center' },
+  pricePix: { color: '#f70000', fontSize: 18, fontWeight: 'bold' },
+  btnBuy: { backgroundColor: '#ff0000', width: '100%', padding: 8, borderRadius: 4, marginTop: 10, alignItems: 'center' },
   btnText: { color: '#FFF', fontWeight: 'bold', fontSize: 12 }
 });
