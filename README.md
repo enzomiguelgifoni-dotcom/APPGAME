@@ -1,27 +1,82 @@
-# 🎮 GameCatalog Native
+# 📱 APPGAME - Projeto React Native
 
-![Status do Projeto](https://img.shields.io/badge/Status-Em%20Desenvolvimento-green)
-![React Native](https://img.shields.io/badge/React--Native-0.7x-blue?logo=react)
-![Expo](https://img.shields.io/badge/Expo-SDK%2050-black?logo=expo)
+Este projeto é um aplicativo desenvolvido com React Native.
 
-## 📝 Descrição do Projeto
-O **GameCatalog Native** é um MVP (Produto Mínimo Viável) desenvolvido para dispositivos móveis que permite aos usuários explorar um vasto catálogo de jogos. O aplicativo consome dados em tempo real da API externa **RAWG.io**, exibindo informações como títulos, capas e avaliações.
+## 🚀 Como abrir o projeto no VSCode
 
-Este projeto foi construído focando em **performance, componentização e boas práticas** de desenvolvimento multiplataforma.
+### 1. Baixar o projeto
+Clone o repositório na sua máquina:
 
----
+git clone https://github.com/seu-usuario/seu-repositorio.git
 
-## 🎯 Requisitos Atendidos
-De acordo com os critérios da avaliação, o projeto implementa:
-- [x] **Navegação:** Utilização de React Navigation (Tabs/Stack).
-- [x] **Componentização:** Criação de componentes reutilizáveis (GameCard).
-- [x] **Gerenciamento de Estado:** Hooks `useState` e `useEffect`.
-- [x] **Integração de Dados:** Consumo da API RAWG via Fetch API.
-- [x] **Estilização:** Layout responsivo com `StyleSheet`.
+Ou baixe o arquivo ZIP e extraia.
 
 ---
 
-## 🚀 Tecnologias e Bibliotecas
-As principais ferramentas utilizadas no desenvolvimento foram:
-* [React Native](https://reactnative.dev/)
-* [Expo](
+### 2. Abrir no VSCode
+
+1. Abra o Visual Studio Code
+2. Clique em File > Open Folder
+3. Selecione a pasta jogo-app
+
+---
+
+### 3. Instalar dependências
+
+Abra o terminal no VSCode (Ctrl + ') e execute:
+
+npm install
+
+ou:
+
+yarn
+
+---
+
+### 4. Rodar o projeto
+
+Execute:
+
+npx expo start
+
+Isso abrirá o Expo no navegador.
+
+---
+
+### 5. Visualizar o app
+
+Celular (recomendado)
+- Baixe o aplicativo Expo Go
+- Escaneie o QR Code
+
+Emulador Android
+- Abra o Android Studio
+- Inicie um emulador
+- Pressione a no terminal
+
+iOS (apenas Mac)
+- Pressione i no terminal
+
+---
+
+## 📁 Estrutura do projeto
+
+jogo-app/
+│
+├── app/ → Telas principais
+├── components/ → Componentes reutilizáveis
+├── assets/ → Imagens e fontes
+├── constants/ → Constantes do projeto
+├── src/services/ → Serviços e APIs
+
+---
+
+## ⚠️ Requisitos
+
+- Node.js instalado
+- VSCode
+- Expo CLI (opcional)
+
+Instalação do Expo CLI:
+
+npm install -g expo-cli
