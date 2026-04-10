@@ -13,6 +13,8 @@ export default function DetailsScreen() {
 
       <Image source={{ uri: image as string }} style={styles.mainImg} />
       
+      <Image source={{ uri: 'https://i.pinimg.com/1200x/90/c6/05/90c6050d639458daf314d5854c7ec4bf.jpg' }} style={styles.bannerImg} />
+      
       <View style={styles.content}>
         <Text style={styles.title}>{name} - PS5</Text>
         <Text style={styles.tag}>Produto com Frete Grátis</Text>
@@ -40,16 +42,17 @@ export default function DetailsScreen() {
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, backgroundColor: '#09090A' },
+  container: { flex: 1, backgroundColor: '#000000' },
   backBtn: { padding: 20, paddingTop: 50 },
-  mainImg: { width: '100%', height: 450, resizeMode: 'contain', backgroundColor: '#000' },
+  mainImg: { width: '100%', height: 5, resizeMode: 'contain', backgroundColor: '#000' },
+  bannerImg: { width: '100%', height: 900, resizeMode: 'contain', alignSelf: 'center', marginVertical: 5 },
   content: { padding: 25 },
-  title: { fontSize: 26, fontWeight: 'bold', color: '#FFF' },
+  title: { fontSize: 26, fontWeight: 'bold', color: '#FFF', fontFamily: 'Full Width' },
   tag: { color: '#ffffff', fontSize: 14, marginTop: 5, fontWeight: '500' },
   priceBox: { marginVertical: 30 },
   pricePix: { color: '#17db32', fontSize: 38, fontWeight: 'bold' },
   discount: { color: '#ffffff', fontSize: 16, fontWeight: '500' },
-  priceOld: { color: '#888', textDecorationLine: 'line-through', marginTop: 10, fontSize: 16 },
+  priceOld: { color: '#888', textDecorationLine: 'line-through', marginTop: 10, fontSize: 5 },
   installments: { color: '#FFF', fontSize: 16, marginTop: 5 },
   btnMain: { backgroundColor: '#ff0000', padding: 18, borderRadius: 5, alignItems: 'center' },
   btnText: { color: '#FFF', fontWeight: 'bold', fontSize: 20, textTransform: 'uppercase' },
